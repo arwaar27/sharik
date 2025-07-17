@@ -1,0 +1,733 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*البداية*/
+header {
+    height: 64px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    padding: 0 100px;
+    position: relative;
+}
+
+/*المقدمة*/
+.intro {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-left: 7%;
+    text-align: center;
+}
+.intro a:hover{
+    font-weight: 700;
+    color: #605bFF;
+}
+
+/*الوغو*/
+.logo {
+    color: #605bFF;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top:17px;
+    right: 40px;
+}
+
+/*المقدمة*/
+
+.intro a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.intro .btn {
+    margin-right: 150px;
+    background-color: #605bFF;
+    color: #FFFFFF;
+    padding: 5px 16px 8px 16px;
+    border-radius: 8px;
+    width: 118px;
+    height: 22px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left:40px;
+    box-shadow:
+        0px 4px 6px -4px rgba(96, 91, 255, 0.25),
+        0px 10px 15px -3px rgba(96, 91, 255, 0.25);
+
+}
+
+.who-we-are h1 {
+    color: #5A4BFF;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+/*man image*/
+.man-image {
+    display: block;
+    margin-left: 90px;
+    margin-top: 80px;
+    text-align: left;
+}
+
+/* account-card"*/
+.account-card-section {
+    width: 380px;
+    height: 130px;
+    border-radius: 12px;
+    box-shadow:
+        0px 4px 6px -2px rgba(96, 91, 255, 0.03),
+        0px 12px 16px -4px rgba(96, 91, 255, 0.08);
+    transform: rotate(0.05deg);
+    position: absolute;
+    left: 410px;
+    top: 90px;
+}
+
+.account-card {
+    display: flex;
+    gap: 30px;
+}
+
+.account-card h3 {
+    padding-right: 20px;
+}
+
+.account-card-contant {
+    display: flex;
+    gap: 5px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+.account-card-contant .number {
+    font-size: 32px;
+}
+
+.account-card-contant p {
+    position: absolute;
+    top: 60px;
+}
+
+.account-card-contant img {
+    padding-top: 15px;
+    padding-right: 65px;
+
+}
+
+.chart-data-img {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+/*text */
+.text {
+    position: absolute;
+    top: 240px;
+    right: 80px;
+}
+
+.text h1 {
+    font-size: 48px;
+    color: #605bFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin: 0;
+}
+
+.text h2 {
+    font-size: 38px;
+    margin: 0;
+}
+
+.text p {
+    font-size: 21px;
+    color: #535862;
+    margin-top: 10px;
+}
+
+.text button {
+    margin-top: 30px;
+    border: none;
+    width: 190px;
+    height: 47px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #605bFF;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+.text button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*stock price*/
+.stock-price-card {
+    width: 400px;
+    height: 170px;
+    border-radius: 12px;
+    position: absolute;
+    left: 150px;
+    top: 650px;
+    box-shadow:
+        0px 6px 10px -2px rgba(96, 91, 255, 0.1),
+        0px 20px 24px -4px rgba(96, 91, 255, 0.1);
+    transform: rotate(3.26deg);
+
+}
+
+.stock-price-card h3 {
+    padding-right: 25px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+/*100$ number*/
+.stock-price-card h2 {
+    text-align: left;
+    font-size: 40px;
+    margin: 0;
+    padding-left: 26px;
+    padding-top: 20px;
+    color: #414651;
+
+}
+
+.stock-price-contant {
+    display: flex;
+    gap: 5px;
+
+}
+
+.stock-price-contant .chart-mini-img {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+.stock-price-contant .change2-img {
+    padding-top: 11px;
+    padding-right: 175px;
+}
+
+.stock-price-contant .p {
+    padding-top: 7px;
+    color: #414651;
+}
+
+/* our products  منتجاتنا*/
+.our-products {
+    margin-top: 400px;
+}
+
+.our-products h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #605bFF;
+}
+
+.images-abuAlzet {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.images-abuAlzet div:hover {
+    transform: scale(1.1);
+}
+
+.images-abuAlzet p {
+    text-align: center;
+
+}
+
+/*-شارك في مستقبلك المالي- financial-future*/
+.financial-future {
+  height: 302px;
+  background-color: #5a4bffef;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 0 20px;
+  gap: 40px; 
+  position: relative;
+}
+
+.financial-future img {
+    height: 200px; 
+    width: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.financial-future-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+    
+}
+
+.financial-future h2 {
+   
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.financial-future p {
+    
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.5px;
+}
+
+.financial-future button {
+    background-color: #FFFFFF;
+    border: none;
+    color: #605bFF;
+    font-size: 20px;
+    font-weight: 700;
+    width: 245px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 7px;
+}
+
+.financial-future button a,
+.investment-plans button a,
+.invest-in-projects button a,
+.footer-about button a {
+    text-decoration: none;
+    color: #605bFF;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*why choose us لماذا تختارنا*/
+.why-choose-us {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.why-choose-us h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #605bFF;
+}
+
+.why-choose-us h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3px;
+    padding-bottom: 15px;
+}
+
+.why-choose-us p {
+    line-height: 1.7px;
+    text-align: center;
+    font-size: 19px;
+    color: #535862;
+    padding-bottom: 5px;
+
+}
+
+/* group*/
+.financial-future-groups {
+   
+    padding-top: 80px;
+}
+
+.group1 h4 {
+    font-size: 30px;
+    padding-right: 100px;
+    margin: 0;
+    padding-bottom: 8px;
+
+}
+
+.group1 h5 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #535862;
+    padding-right: 100px;
+    margin: 0;
+    padding-bottom: 30px;
+
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+    padding-right: 100px;
+    padding-bottom: 7px;
+
+}
+
+.item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.item img {
+
+    margin: 0;
+}
+.group2{
+   position: relative;
+}
+.card1 {
+    background-color: #605bFF;
+    border-radius: 12px;
+    Width: 200px;
+    Height: 155px;
+    position:absolute ;
+    bottom: 330px;
+    left: 100px;
+    box-shadow:
+        0px 6px 10px -2px rgba(96, 91, 255, 0.3),
+        0px 20px 24px -4px rgba(96, 91, 255, 0.2);
+
+}
+
+.card2 {
+    width: 270px;
+    font-weight: 500;
+    background-color: #605bFF;
+    border-radius: 12px;
+    Height: 155px;
+    position:absolute ;
+    bottom: 170px;
+    left: 280px;
+    box-shadow:
+        0px 6px 10px -2px rgba(96, 91, 255, 0.3),
+        0px 20px 24px -4px rgba(96, 91, 255, 0.2);
+}
+.card3{
+    background-color: #605bFF;
+    border-radius: 12px;
+    Width: 210px;
+    Height: 170px;
+    position:absolute ;
+    bottom:-10px;
+    left: 100px;
+    box-shadow:
+        0px 6px 10px -2px rgba(96, 91, 255, 0.3),
+        0px 20px 24px -4px rgba(96, 91, 255, 0.2);
+
+}
+.card1 h3 , .card3 h3 , .card2 h3{
+    color: #FFFFFF;
+    padding-top: 40px;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.card1 p ,.card3 p , .card2 p {
+    font-size: 60px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 40px;
+}
+
+/*خطط استثمارية متنوعة (investment plans)*/
+.investment-plans {
+  height: 302px;
+  background-color: #5a4bffef;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 0 20px;
+  gap: 40px; 
+  position: relative;
+
+}
+.investment-plans-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+
+}
+
+.investment-plans .image1-in-investment-plans {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.investment-plans h2 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0;
+}
+
+.investment-plans p {
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.5px;
+}
+
+.investment-plans button {
+    background-color: #FFFFFF;
+    border: none;
+    color: #605bFF;
+    font-size: 20px;
+    font-weight: 700; 
+    width: 245px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 7px;
+}
+
+.investment-plans .image2-in-investment-plans {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* حصصنا الاستثمارية (investment-shares)*/
+.investment-shares {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.investment-shares h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #605bFF;
+}
+
+.investment-shares h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3px;
+    padding-bottom: 15px;
+}
+
+.investment-shares-groups {
+    display: flex;
+    justify-content: start;
+    
+    
+}
+
+.investment-shares-image {
+    margin-top: 70px;
+    margin-right: 80px;
+
+}
+
+.offered-shares h4 {
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.offered-shares h4 strong {
+    font-size: 48px;
+    color: #605bFF;
+}
+
+.offered-shares h4 b {
+    color: #605bFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.offered-shares .item {
+    padding-right: 50px;
+}
+
+/*invest-in-projects  استثمر في مشاريع واعدة*/
+.invest-in-projects {
+  height: 302px;
+  background-color: #5a4bffef;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 0 20px;
+  gap: 40px; 
+  position: relative;
+}
+.invest-in-projects-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+
+}
+.invest-in-projects h2 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0;
+}
+
+.invest-in-projects p {
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.5px;
+}
+
+.invest-in-projects .image1-invest-in-projects {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.invest-in-projects .image2-invest-in-projects {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.invest-in-projects button {
+    background-color: #FFFFFF;
+    border: none;
+    color: #605bFF;
+    font-size: 20px;
+    width: 245px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 7px;
+}
+
+/* footer*/
+footer {
+    background: linear-gradient(rgb(21, 18, 91) 18.97%, rgb(24, 19, 156) 100%);
+    color: white;
+    padding: 50px 20px 20px 20px;
+    margin-top: 40px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-about {
+  flex: 1 1 250px;
+}
+.footer-about button{
+  background-color: #FFFFFF;
+  padding: 13px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+}
+.footer-about button a{
+  text-decoration: none;
+  color:#605bFF;
+  font-family: 'Tajawal', sans-serif;
+}
+.footer-links {
+  flex: 1 1 150px;
+ 
+}
+
+.footer-links h4, .footer-about h4, .footer-social h4 {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  
+}
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color:#605bFF;
+  transform: translateX(-5px);
+}
+
+.footer-social {
+  flex: 1 1 150px;
+}
+.social-icons{
+     display: flex;
+  gap: 10px;
+}
+
+
+.social-icons a {
+ width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color:rgba(255 ,255,255,0.1) ;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.4s ease;
+   
+}
+
+.social-icons a:hover {
+   transform: rotate(45deg);
+}
+
+.footer-line {
+  width: 90%;
+  height: 2px;
+  background-color:#FFFFFF;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  opacity: 0.3;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}

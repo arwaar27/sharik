@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*البداية*/
+header {
+    height: 64px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    padding: 0 100px;
+    position: relative;
+}
+
+/*المقدمة*/
+.intro {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-left: 7%;
+    text-align: center;
+}
+.intro a:hover{
+    font-weight: 700;
+    color: #605bFF;
+}
+
+/*الوغو*/
+.logo {
+    color: #605bFF;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top:17px;
+    right: 40px;
+}
+
+/*المقدمة*/
+
+.intro a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.intro .btn {
+    margin-right: 150px;
+    background-color: #605bFF;
+    color: #FFFFFF;
+    padding: 5px 16px 8px 16px;
+    border-radius: 8px;
+    width: 118px;
+    height: 22px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left:40px;
+    box-shadow:
+        0px 4px 6px -4px rgba(96, 91, 255, 0.25),
+        0px 10px 15px -3px rgba(96, 91, 255, 0.25);
+
+}
+
+/*محفظة الحصص (share portfolio)*/
+.share-portfolio {
+    margin-top: 50px;
+}
+.share-portfolio h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color:#605bFF;
+}
+.share-portfolio h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.3px;
+    padding-bottom: 15px;
+}
+.share-portfolio-cards{
+   display: flex;
+   gap:17px;
+   justify-content: center;
+   margin-top: 50px;
+  
+}
+.share-portfolio-cards .card{
+   width: 394px;
+   height: 142px;
+   border-radius: 8px;
+   border: 1px solid #615bffaa;
+   box-shadow: 0px 2px 16px -2px #0A0D120F,
+   0px 4px 16px -2px #0A0D121A;
+
+}
+.card-500 ,.card-800 {
+    display: flex;
+    gap:100px;
+    padding-top:10px;
+    padding-right: 20px;
+}
+.card-500-800{
+    display: flex;
+    gap:130px;
+    padding-top:10px;
+    padding-right: 20px;
+    position: relative;
+}
+.arrow-60{
+    display: flex;
+}
+.arrow-60 p{
+    margin-bottom: 100px;
+    position: absolute;
+    top:50px;
+    right: 25px;
+}
+.arrow-60 img{
+    margin-bottom: 100px;
+    position: absolute;
+    top:93px;
+    right: 85px;
+}
+/*عوائد الحصص*/
+.investment-returns-month{
+    display: flex;
+    justify-content: center;
+    gap:900px;
+    margin-top: 60px;
+}
+.month-icon{
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 7px 16px;
+    border: 1px solid #D5D7DA;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px #0A0D120D;
+    width: 110px;
+    height: 23px;
+}
+.Divider{
+  width:1200px ;
+  height: 2px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+
+.line-bar-img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  
+}
+/* footer*/
+footer {
+    background: linear-gradient(rgb(21, 18, 91) 18.97%, rgb(24, 19, 156) 100%);
+    color: white;
+    padding: 50px 20px 20px 20px;
+    margin-top: 40px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-about {
+  flex: 1 1 250px;
+}
+.footer-about button{
+  background-color: #FFFFFF;
+  padding: 13px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+}
+.footer-about button a{
+  text-decoration: none;
+  color:#605bFF;
+  font-family: 'Tajawal', sans-serif;
+}
+.footer-links {
+  flex: 1 1 150px;
+ 
+}
+
+.footer-links h4, .footer-about h4, .footer-social h4 {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  
+}
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color:#605bFF;
+  transform: translateX(-5px);
+}
+
+.footer-social {
+  flex: 1 1 150px;
+}
+.social-icons{
+     display: flex;
+  gap: 10px;
+}
+
+
+.social-icons a {
+ width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color:rgba(255 ,255,255,0.1) ;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.4s ease;
+   
+}
+
+.social-icons a:hover {
+   transform: rotate(45deg);
+}
+
+.footer-line {
+  width: 90%;
+  height: 2px;
+  background-color:#FFFFFF;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  opacity: 0.3;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
